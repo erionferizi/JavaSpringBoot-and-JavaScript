@@ -1,0 +1,90 @@
+body {
+  background-color: #edf3ef;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+#logOutBtn,
+#quotesBtn,
+#sendToCreateQuotes {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+#logOutBtn:hover
+#quotesBtn:hover,
+#sendToCreateQuotes:hover {
+  background-color: #45a049;
+}
+
+#logOutBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#quotesBtn,
+#sendToCreateQuotes {
+  display: block;
+  margin: 50px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table td {
+  border-right: 1px solid #ddd;
+}
+
+table td:last-child {
+  border-right: none;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade-in 2.5s ease-in-out;
+}
+
+table tbody tr:hover {
+  background-color: #dad6d6;
+  cursor: pointer;
+}
+
+table th:nth-child(1),
+table td:nth-child(1) {
+  width: 60px;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 200px;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 400px;
+}

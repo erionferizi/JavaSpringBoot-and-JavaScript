@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quote List</title>
+    <link rel="stylesheet" type="text/css" href="quotes.css">
+
+  </head>
+  <body>
+    <button id="logOutBtn" onclick="logOut()">Log Out</button>
+
+    <button id="quotesBtn" onclick="getQuotes()">Get Quotes</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Author</th>
+          <th>Quote</th>
+        </tr>
+      </thead>
+      <tbody id="quote-table-body"></tbody>
+    </table>
+    <button id="sendToCreateQuotes" onclick="goToQuotes()">Create a quote</button>
+
+    <script src="dashboard.js"></script>
+      </body>
+</html>

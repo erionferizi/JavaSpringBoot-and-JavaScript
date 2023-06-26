@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000;
+    background-image: url(assets/apersonwhothinks.png);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #4C4C4C;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    animation: slide-in 2s ease;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .button-group {
+    display: flex;
+    margin: 40px 15px;
+    justify-content: space-between;
+  }
+  
+  .button {
+    margin: 15px;
+    flex: 1;
+    padding: 10px;
+    background-color: #08FA5D;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 3s ease;
+  }
+  
+  .button:hover {
+    background-color: #07C94E;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

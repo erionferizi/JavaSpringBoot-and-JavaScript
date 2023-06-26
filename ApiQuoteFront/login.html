@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API Quote</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+  </head>
+  <body>
+    <div class="container">
+      <form id="login-form">
+        <label class="label" for="email">Email:</label>
+        <input class="input" type="email" id="email" name="email" required />
+
+        <label class="label" for="password">Password:</label>
+        <input class="input" type="password" id="password" name="password" required />
+
+        <button class="button" onclick="loginUser()" type="submit">Login</button>
+        <button class="button" onclick="redirectToRegister()">Register</button>
+      </form>
+    </div>
+
+    <script>
+      function redirectToRegister() {
+        window.location.href = "register.html";
+      }
+    </script>
+    <script src="login.js"></script>
+  </body>
+</html>
